@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Uber App</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="../static/images/icons/uber_icon.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/vendor/noui/nouislider.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/css/util.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form" action='{{url_for('home')}}' >
+				<span class="contact100-form-title">
+					
+				<p class="main-p">  Uber Predict Price           </p>
+				</span>
+
+
+               <div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">Name *</span>
+					<div>
+						<select class="js-select2" name="name">
+							<option value="Shared">Shared</option>
+							<option value="Lux"   >Lux</option>
+							<option value="Lyft"  >Lyfl</option>
+							<option value="UberX">Uberx</option>
+							<option value="WAV">Wav</option>
+							<option value="Black SUV">Black sav</option>
+							<option value="Lux Black XL">Lux-black-xl</option>
+                            <option value="Lyft XL">Lyft XL</option>
+							<option value="Lux Black">Lux Black</option>
+							<option value="UberXL">Uber Xl</option>
+							<option value="Black">Black</option>
+							<option value="UberPool">UberPool </option>
+							<option value="Taxi">Taxi</option>
+														
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+				
+				
+				<div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">Car type *</span>
+					<div>
+						<select class="js-select2" name="Car type">
+							<option value="UBER">UBER</option>
+							<option value="LYFT">LYFT</option>
+							
+								
+						
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+				
+				<div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">Destination*</span>
+					<div>
+						<select class="js-select2" name="Destination">
+							<option value="HayMarket Square" >HayMarket Square</option>
+							<option value="Back Bay">Back Bay</option>
+							<option value="North End ">North End</option>
+							<option value="North Station">North Station</option>
+                            <option value="Beacon hill">Beacon hill</option>
+                            <option value="Boston University">Boston University</option>	
+                            <option value="Fen way">Fen way</option>	
+                            <option value="south station">south station</option>
+							<option value="West End">West End</option>
+							<option value="Financial District">Financial District</option>
+	                        <option value="theatre District">theatre District</option>
+	                        <option value="novtheastrn university">novtheastrn university</option>								   
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+				
+                 
+				
+
+				
+
+				
+
+				<div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">source*</span>
+					<div>
+						<select class="js-select2" name="source">
+							<option value="HayMarket Square" >HayMarket Square</option>
+							<option value="Back Bay">Back Bay</option>
+							<option value="North End">North End</option>
+							<option value="North Station">North Station</option>
+                            <option value="Beacon hill">Beacon hill</option>
+                            <option value="Boston University">Boston University</option>	
+                            <option value="Fen way">Fen way</option>	
+                            <option value="south station">south station</option>
+							<option value="West End">West End</option>
+							<option value="Financial District">Financial District</option>
+	                        <option value="theatre District">theatre District</option>
+	                        <option value="novtheastrn university">novtheastrn university</option>								   
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+				
+
+
+				<div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">Product ID *</span>
+					<div>
+						<select class="js-select2" name="Product ID">
+							<option value="lyft_line">Lyft-line</option>
+							<option value="lyft_premier">Lyft-premier</option>
+							<option value="lyft">Lyft</option>
+							<option value="lyft_luxsuv">Lyft-luxsuv</option>
+                            <option value="lyft_plus">Lyft-plus</option>
+							<option value="lyft_lux">Lyft-lux</option>
+							<option value="6f72dfc5">6F72dfc5</option>
+							<option value="6c84fd89">6c84fd89</option>	
+                              <option value="55c66225">55c66225</option>
+							<option value="9a0e7b09">9aoe7b09</option>
+							<option value="6d318bcc">6d318bcc</option>
+                            <option value="997acbb5">997acbb5</option>
+                            <option value="8cf7e821">8cf7e821</option>							
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+
+
+				
+
+
+				<div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">Suger *</span>
+					<div>
+						<select class="js-select2" name="Suger">
+							<option value="one">1.0</option>
+							<option value="one_point_25">1.25</option>
+							<option value="one_half">1.50</option>
+							<option value="one_point_75">1.75</option>	
+                            <option value="two">2.0</option>
+							<option value="two_point_half">2.50</option>
+							<option value="three">3.0</option>							
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+				<div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">UV *</span>
+					<div>
+						<select class="js-select2" name="UV">
+							<option value="zero">0</option>
+							<option value="one">1</option>
+							<option value="two">2</option>
+								
+						
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+				
+				<div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">Month *</span>
+					<div>
+						<select class="js-select2" name="Month">
+							<option value="eleven">11</option>
+							<option value="twelve">12</option>
+							
+						
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+				
+				
+				
+
+                  <div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">Icon *</span>
+					<div>
+						<select class="js-select2" name="Icon">
+							<option value="partly-cloudy-night">Partly-cloud-night</option>
+							<option value="rain">rain</option>
+							<option value="cloudy">cloudy</option>
+							<option value="clear-night">clear Night</option>	
+                            <option value="fog">fog</option>
+							<option value="clear day">clear day</option>
+							<option value="partly-cloudy-day">Partly cloudy day</option>							
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+				
+				
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter distance from 0 to 3 ">
+					<span class="label-input100">Distance  *</span>
+					<input class="input100" type="text" name="Distance" placeholder="Enter distance from 0.02 km to 8 km or more ">
+				</div>
+
+
+				
+
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn" type="submit" value="Submit">
+						<span>
+							SUBMIT
+							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
+<!--===============================================================================================-->
+	<script src="../static/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="../static/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="../static/vendor/bootstrap/js/popper.js"></script>
+	<script src="../static/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="../static/vendor/select2/select2.min.js"></script>
+	<script>
+		$(".js-select2").each(function(){
+			$(this).select2({
+				minimumResultsForSearch: 20,
+				dropdownParent: $(this).next('.dropDownSelect2')
+			});
+
+
+			$(".js-select2").each(function(){
+				$(this).on('select2:close', function (e){
+					if($(this).val() == "Please chooses") {
+						$('.js-show-service').slideUp();
+					}
+					else {
+						$('.js-show-service').slideUp();
+						$('.js-show-service').slideDown();
+					}
+				});
+			});
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="../static/vendor/daterangepicker/moment.min.js"></script>
+	<script src="../static/vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="../static/vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="../static/vendor/noui/nouislider.min.js"></script>
+	<script>
+	    var filterBar = document.getElementById('filter-bar');
+
+	    noUiSlider.create(filterBar, {
+	        start: [ 1500, 3900 ],
+	        connect: true,
+	        range: {
+	            'min': 1500,
+	            'max': 7500
+	        }
+	    });
+
+	    var skipValues = [
+	    document.getElementById('value-lower'),
+	    document.getElementById('value-upper')
+	    ];
+
+	    filterBar.noUiSlider.on('update', function( values, handle ) {
+	        skipValues[handle].innerHTML = Math.round(values[handle]);
+	        $('.contact100-form-range-value input[name="from-value"]').val($('#value-lower').html());
+	        $('.contact100-form-range-value input[name="to-value"]').val($('#value-upper').html());
+	    });
+	</script>
+<!--===============================================================================================-->
+	<script src="../static/js/main.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+</body>
+</html>
